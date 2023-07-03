@@ -26,7 +26,7 @@ public class ProdutoTest {
     public void beforeEach(){
         // Configurando os dados API Rest da Lojinha
         baseURI = "http://165.227.93.41";
-        basePath = "/lojinha";
+        basePath = "/lojinha-bugada";
 
         //Obter o Token do usuário Admin
         this.token = given()
